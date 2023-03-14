@@ -1,2 +1,3 @@
 #!/usr/bin/python3
-import #pythoniscool
+if __name__ == "__main__":
+    import #pythoniscool
