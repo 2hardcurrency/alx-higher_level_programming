@@ -12,6 +12,7 @@ def max_integer(my_list=[]):
         if max_vlaue < my_list:
             max_value = my_list
 
+        else:
             continue
 
             return max_value
