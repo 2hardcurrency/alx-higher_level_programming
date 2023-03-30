@@ -7,6 +7,8 @@ except ZeroDivisionError:
     div = none
 
 finally:
-    print("Inside result:" {:d}.formet(a/b))
+    print("Inside result: {:d}".formet(a/b))
+
+return div
 
          
