@@ -2,11 +2,11 @@
 def safe_print_division(a, b)
 
 try:
-    print(f"{:d}".format(a/b))
+    div = a/b
 except ZeroDivisionError:
-    print("None")
+    div = none
 
 finally:
-    print(f"{:d}.formet(a/b))
+    print("Inside result:" {:d}.formet(a/b))
 
          
