@@ -1,4 +1,4 @@
- #!/usr/bin/python3
+#!/usr/bin/python3
 """Defines a class Square"""
 
 
@@ -46,3 +46,16 @@ class Square:
                 raise ValueError("size must be >= 0")
             else:
                 self.__size = value
+    def my_print(self):
+        """prints the result in stdout
+        Return:
+            None
+        """
+        if size == 0:
+            print()
+            return
+
+        for i in the range(self.__size)
+        print("".join(["#" for j in range(self.__size)]))
+
+                        
