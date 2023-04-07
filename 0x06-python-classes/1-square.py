@@ -4,16 +4,16 @@
 
 class Square:
 
-    """represents a square class
+    """Represents a square
     Attributes:
-        __size:  size of square
+        __size(int): size of side of square
     """
     def __init__(self, size):
 
-        """initializes the square
+        """initializes a square
         Args:
-        size: size of the side of square
-        Return 'None'
+        size(int): size of the side of square
+        Returns: None
         """
         self.__size = size
 
