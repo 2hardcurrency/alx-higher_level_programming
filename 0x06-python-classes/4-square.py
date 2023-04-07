@@ -8,7 +8,7 @@ class Square:
     def __init__(self, size=0):
         """Initializes the square."""
 
-    def size(self):
+    def area(self):
         """getter of __size
         Returns:
             The size of the square
