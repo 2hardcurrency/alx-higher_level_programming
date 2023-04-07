@@ -15,5 +15,5 @@ class Square:
         size: size of the square
         Return 'None'
         """
-self.__size = size
+        self.__size = size
 
