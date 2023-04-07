@@ -8,11 +8,11 @@ class Square:
     Attributes:
     __size:  size of square
     """
-    def __init__ (self, size):
+    def __init__(self, size):
 
-        """ initializes the square
+        """initializes the square
         Args:
-        size: size of the square
+        size: size of the side of square
         Return 'None'
         """
         self.__size = size
