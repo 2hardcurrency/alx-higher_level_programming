@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Defines the classes of rectangle"""
+"""Definescln empty class rectangle"""
 
 class Rectangle:
     """Represents an empty rectangle"""
