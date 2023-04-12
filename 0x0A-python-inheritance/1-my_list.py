@@ -2,9 +2,8 @@
 """Contains the MyList class"""
 
 
-class MyList(List):
+class MyList(list):
     """A sorted class list"""
-
     def __init__(self):
         """Defines the function"""
         super().__init__()

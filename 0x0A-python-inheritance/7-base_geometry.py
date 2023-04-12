@@ -6,12 +6,10 @@ class BaseGeometry:
     """Defines an empty class, BaseGeometry"""
     def area(self):
         """Defines the class that raises exception"""
-        raise exception('area() is not implemented')
+        raise Exception('area() is not implemented')
 
     def integer_validator(self, name, value):
-
-        self.name = name
-        self.value = value
+        """validates that value is an integer greater than 0"""
 
         if type(value) is not int:
             raise TypeError('{:s} must be an integer')
