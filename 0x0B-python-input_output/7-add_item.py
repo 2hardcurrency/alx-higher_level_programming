@@ -14,7 +14,9 @@ json_list = []
 for arg in sys.argv[1:]:
     json_list.append(arg)
 
-if path.exist("add_items.json"):
-    json_list += load_from_json_file("add_item.json")
+filename = "add_item.json"
 
-save_to_json_file(json_list, "add_item.json")
+if path.exist(filename):
+    json_list += load_from_json_file(filename)
+
+save_to_json_file(json_list, filename)
