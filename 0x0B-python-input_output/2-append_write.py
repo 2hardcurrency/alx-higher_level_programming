@@ -1,8 +1,14 @@
-#!/usr/bin/python3
-"""Contains the write-only file"""
+#!\usr\bin\python3
+"""Contains the function that appends string"""
 
 
-def write_file(filename="", text=""):
-    """Writes into a file in stdout"""
-    with open(filename, 'a', encoding="utf-8") as f:
-        return f.write(text)
+def append_write(filename="", text=""):
+    """
+    Appends a string at the end of a text file (UTF8) and returns the number of characters added.
+    If the file doesn't exist, it will be created.
+    """
+    count = 0
+    with open(filename, mode='a', encoding='utf-8') as file:
+        file.write(text)
+        count = len(text)
+    return count
