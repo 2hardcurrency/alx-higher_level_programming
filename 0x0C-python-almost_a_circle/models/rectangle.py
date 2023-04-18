@@ -6,7 +6,9 @@ Contains a class of rectangle that inherits base
 
 class Rectangle(Base):
     """Represent a rectangle."""
-    def __init__(self, width, height, x=0, y=0, id=None):
+   
+
+   def __init__(self, width, height, x=0, y=0, id=None):
          """Initialize a new Rectangle.
         Args:
             width (int): The width of the new Rectangle.
@@ -18,8 +20,7 @@ class Rectangle(Base):
         self.height = height
         self.x = x
         self.y = y
-
-    super().__init__id
+        super().__init__id
 
     @property
     def width(self):
