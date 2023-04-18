@@ -6,16 +6,10 @@ Contains a class of rectangle that inherits base
 
 class Rectangle(Base):
     """Represent a rectangle."""
-   
 
-   def __init__(self, width, height, x=0, y=0, id=None):
-         """Initialize a new Rectangle.
-        Args:
-            width (int): The width of the new Rectangle.
-            height (int): The height of the new Rectangle.
-            x (int): The x coordinate of the new Rectangle.
-            y (int): The y coordinate of the new Rectangle.
-            id (int): The identity of the new Rectangle."""
+    def __init__(self, width, height, x=0, y=0, id=None):
+        """Initializing the parameters, width, height, x and y"""
+
         self.width = width
         self.height = height
         self.x = x
@@ -105,4 +99,3 @@ class Rectangle(Base):
                 - 5th argument represents y attribute
             **kwargs (dict): New key/value pairs of attributes.
         """
-
