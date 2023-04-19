@@ -2,6 +2,7 @@
 """
 Contains a class of rectangle that inherits base
 """
+from models.base import Base
 
 
 class Rectangle(Base):
