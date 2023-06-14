@@ -1,6 +1,6 @@
 #!/usr/bin/node
 class Rectangle {
-  constructor(w, h) {
+  constructor (w, h) {
     if (w <= 0 || !Number.isInteger(w) || h <= 0 || !Number.isInteger(h)) {
       return {}; // Return an empty object if width or height is not valid
     }
