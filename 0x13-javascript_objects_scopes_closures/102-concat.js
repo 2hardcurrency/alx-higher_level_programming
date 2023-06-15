@@ -30,4 +30,4 @@ function concatFiles(sourceFile1, sourceFile2, destinationFile) {
       });
     });
   });
-);
+;
