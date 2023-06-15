@@ -9,14 +9,14 @@ class Rectangle {
     this.height = h;
   }
 
-  print() {
+  print () {
     if (!this.width || !this.height) {
-      console.log("Invalid rectangle");
+      console.log('Invalid rectangle');
       return;
     }
 
     for (let i = 0; i < this.height; i++) {
-      console.log("X".repeat(this.width));
+      console.log('X'.repeat(this.width));
     }
   }
 }
