@@ -6,7 +6,7 @@ class Square extends Square {
   }
   
   charPrint(c) {
-    if (typeof 'c' === undefined) {
+    if (c === undefined) {
       c = 'X';
     }
     for (i = 0; i < this.height; i++) {
