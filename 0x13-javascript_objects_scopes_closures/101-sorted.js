@@ -1,7 +1,7 @@
 #!/usr/bin/node
 import { dict } from './101-data.js';
 
-function computeUserIdsByOccurrences(dict) {
+function computeUserIdsByOccurrences (dict) {
   const userIdsByOccurrences = {};
 
   for (const [occurrences, userIds] of Object.entries(dict)) {
