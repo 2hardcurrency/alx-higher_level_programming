@@ -11,3 +11,7 @@ function readFileContent(filePath) {
     }
   });
 }
+
+// Usage example: node read_file.js path/to/your/file.txt
+const filePath = process.argv[2];
+readFileContent(filePath);
